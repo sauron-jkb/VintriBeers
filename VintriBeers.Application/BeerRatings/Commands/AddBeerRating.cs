@@ -53,8 +53,6 @@ namespace VintriBeers.Application.BeerRatings.Commands
             {
                 bool successfulOperation = false;
 
-                throw new Exception("Is this owin?");
-
                 Validator validator = new Validator(_punkApiService);
                 ValidationResult results = validator.Validate(request);
 
