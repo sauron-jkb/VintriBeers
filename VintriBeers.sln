@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintriBeers.Api", "VintriBeers.Api\VintriBeers.Api.csproj", "{93EEDDEA-3FC6-4B09-9207-C94A9520E250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintriBeers.Application", "VintriBeers.Application\VintriBeers.Application.csproj", "{71B3B44D-E966-4587-A912-864C1B4EB9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintriBeers.Externalities", "VintriBeers.Externalities\VintriBeers.Externalities.csproj", "{356B4FFC-164C-4970-A25B-2F24EB1020BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintriBeers.Domain", "VintriBeers.Domain\VintriBeers.Domain.csproj", "{9525FEDD-D01F-4C99-82ED-CE33BC088DBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BF965BA8-3786-40C2-98B9-293C453077B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VintriBeers.Application.Tests", "VintriBeers.Application.Tests\VintriBeers.Application.Tests.csproj", "{E1B915AD-C265-4D20-BE82-8FA7C31830FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93EEDDEA-3FC6-4B09-9207-C94A9520E250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93EEDDEA-3FC6-4B09-9207-C94A9520E250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93EEDDEA-3FC6-4B09-9207-C94A9520E250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93EEDDEA-3FC6-4B09-9207-C94A9520E250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B3B44D-E966-4587-A912-864C1B4EB9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B3B44D-E966-4587-A912-864C1B4EB9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B3B44D-E966-4587-A912-864C1B4EB9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B3B44D-E966-4587-A912-864C1B4EB9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356B4FFC-164C-4970-A25B-2F24EB1020BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356B4FFC-164C-4970-A25B-2F24EB1020BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356B4FFC-164C-4970-A25B-2F24EB1020BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356B4FFC-164C-4970-A25B-2F24EB1020BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9525FEDD-D01F-4C99-82ED-CE33BC088DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9525FEDD-D01F-4C99-82ED-CE33BC088DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9525FEDD-D01F-4C99-82ED-CE33BC088DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9525FEDD-D01F-4C99-82ED-CE33BC088DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B915AD-C265-4D20-BE82-8FA7C31830FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B915AD-C265-4D20-BE82-8FA7C31830FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B915AD-C265-4D20-BE82-8FA7C31830FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B915AD-C265-4D20-BE82-8FA7C31830FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1B915AD-C265-4D20-BE82-8FA7C31830FE} = {BF965BA8-3786-40C2-98B9-293C453077B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20E254F5-67DF-494E-934D-7E1ECDD1040D}
+	EndGlobalSection
+EndGlobal
