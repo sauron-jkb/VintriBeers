@@ -40,6 +40,11 @@ This is a solution in response to the challenge of implementing the following:
         "rating": 3,
         "comments": "It's a beer"
    }
+   
+## Making it Work - Retrieve Beers
+
+1. Open up Postman
+2. Open a new request and make it a GET and paste in http://localhost:63770/api/Beers?beerName=buzz and then click Send
 
 ### Data/Logging Configuration
 
